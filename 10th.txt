@@ -1,0 +1,19 @@
+1. Create a Lab Account:
+Sign in to the Azure portal. 
+Search for and select "Lab Services". 
+Create a lab account, specifying details like account name, subscription, resource group, and location. 
+2. Create a Lab Plan:
+In the Azure portal, navigate to "All services" and select "Lab Services". 
+Select "Lab plans" and create a new lab plan, defining configurations for the labs. 
+Optionally, assign the Lab Creator role in Azure RBAC to users who need to create labs. 
+3. Create a Lab:
+Use the Azure Lab Services website, select "Create lab", and specify details like lab name, VM image, size, and location. 
+Define virtual machine credentials and lab policies. 
+Create a template virtual machine to configure the base VM image. 
+Select "Finish" to begin lab creation. 
+4. Register and Connect to the Lab:
+After lab creation, users can register for the lab and access their virtual machines from the Azure Lab Services website. 
+Connect to the virtual machine using Remote Desktop Protocol (RDP). 
+5. Manage Lab:
+From the lab dashboard, you can manage virtual machines, schedules, and other settings. 
+Monitor VM status and perform actions like starting, stopping, or deleting them
