@@ -1,0 +1,18 @@
+sudo apt update && sudo apt upgrade -y
+
+sudo apt install apache2 -y
+
+sudo systemctl start apache2
+
+sudo systemctl enable apache2
+
+sudo systemctl status apache2
+
+sudo rm /var/www/html/index.html
+
+sudo nano /var/www/html/index.html
+
+ctrl+o and enter to save
+ctrl+x exit nano
+q to exit a line struck
+tab+enter to exit options window
